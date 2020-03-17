@@ -13,3 +13,7 @@ def password():
             if len(matches) >= 2:
                 combinations_number += 1
     return combinations_number
+
+
+if __name__ == '__main__':
+    print(password())

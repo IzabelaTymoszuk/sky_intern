@@ -73,7 +73,10 @@ class Car:
             f'Total mass: {self.total_mass}'
 
 
-c = Car(2, 1300, 4)
-print(c)
-c.pax_count = 6
-print(c)
+if __name__ == '__main__':
+    c = Car(2, 1300, 4)
+    print(c)
+    c.pax_count = 6
+    print(c)
+    d = Car(8, 2300, 6)
+    print(d)
